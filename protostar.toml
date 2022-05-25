@@ -1,0 +1,25 @@
+["protostar.config"]
+protostar_version = "0.2.1"
+
+["protostar.project"]
+libs_path = "lib"
+
+["protostar.contracts"]
+counter = [
+    "./src/counter/endpoint.cairo",
+]
+counter_logic = [
+    "./src/counter/logic.cairo",
+]
+counter_persistence = [
+    "./src/counter/persistence.cairo",
+]
+services_operation = [
+    "./src/services/operation.cairo",
+]
+stub_external_endpoint = [
+    "./src/stub_external/endpoint.cairo",
+]
+stub_external_interface = [
+    "./src/stub_external/interface.cairo",
+]
