@@ -10,7 +10,6 @@ multiply,
 plus,
 minus)
 
-@view
 func increment_counter{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     _value: felt, _to_add: felt) -> (value_new: felt):
 
@@ -22,7 +21,6 @@ func increment_counter{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_c
     
 end
 
-@view
 func decrement_counter{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     _value: felt, _to_remove: felt) -> (value_new: felt):
 
@@ -35,7 +33,6 @@ func decrement_counter{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_c
     
 end
 
-@view
 func multiply_counter{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     _value: felt, _multiplier: felt) -> (value_new: felt):
 
